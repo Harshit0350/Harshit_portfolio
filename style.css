@@ -157,6 +157,8 @@ body.dark .section {
   list-style: disc inside;
   margin-bottom: 1.5rem;
   color: var(--text-dark);
+   padding-inline-end: 40px;
+  text-align: justify;
 }
 body.dark .about-lines {
   color: var(--text-light);
@@ -1066,6 +1068,7 @@ body.dark #chatbot-input {
   .section, .about-actions, .skills-cards, .cert-cards, .service-cards, .project-grid, .contact-centered, .contact-form-wrapper {
     align-items: center !important;
     justify-content: center !important;
+    text-align: center !important;
   }
   .btn, .btn-primary, .btn-secondary {
     width: 100%;
